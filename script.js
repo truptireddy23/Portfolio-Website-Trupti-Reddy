@@ -840,10 +840,11 @@ class PortfolioWebsite {
     if (!typewriter || !cursor) return;
     
     const roles = [
-      'Software Developer',
+      'Data Enthusiast',
       'Data Analyst', 
-      'Dessert Connoisseur',
-      'Software Engineer'
+      'Data Scientist',
+      'Business Analyst',
+      'AI Explorer'
     ];
     
     let currentRoleIndex = 0;
