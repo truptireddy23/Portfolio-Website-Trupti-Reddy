@@ -845,6 +845,7 @@ class PortfolioWebsite {
       'Data Scientist',
       'Business Analyst',
       'AI Explorer'
+      'Data Enthusiast'
     ];
     
     let currentRoleIndex = 0;
