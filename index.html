@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Trupti Reddy - SAP ABAP Consultant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Startup Animation -->
+    <div id="startup-screen" class="startup-screen">
+        <!-- Code Rain Effect -->
+        <div class="startup-rain">
+            <div class="rain-column rain-1">console.log("Loading...");<br/>import React from 'react';<br/>const dev = new Engineer();<br/>function build() {}<br/>export default App;</div>
+            <div class="rain-column rain-2">class Developer {<br/>  constructor() {<br/>    this.skills = [];<br/>  }<br/>}</div>
+            <div class="rain-column rain-3">npm install awesome<br/>git commit -m "magic"<br/>const result = solve();<br/>return success;</div>
+            <div class="rain-column rain-4">async function() {<br/>  await deploy();<br/>  console.log("Live!");<br/>}</div>
+        </div>
+        
+        <!-- Main Code Block -->
+        <div class="startup-code">
+            <div class="code-line startup-line">const portfolio = {</div>
+            <div class="code-line startup-line">  name: "Trupti Reddy",</div>
+            <div class="code-line startup-line">  role: "Software Engineer",</div>
+            <div class="code-line startup-line">  skills: ["Coding", "Debugging", "Experience Design"],</div>
+            <div class="code-line startup-line">  passion: "Crafting digital experiences"</div>
+            <div class="code-line startup-line">};</div>
+            <div class="code-line startup-line"></div>
+            <div class="code-line startup-line">portfolio.initialize();</div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Trupti</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://drive.google.com/file/d/1NYsA1CxHAuEiZB-39Kf5N2_iLA3NDPnt/view?usp=sharing" target="_blank" class="nav-link">
+                        Resume <i class="fas fa-external-link-alt" style="font-size: 0.8rem; margin-left: 0.3rem;"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-extras">
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Matrix Digital Rain Effect - Global -->
+    <canvas id="matrix-canvas" class="matrix-canvas"></canvas>
+    
+    <!-- Landing Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            
+            <!-- Floating Code Lines -->
+            <div class="floating-code">
+                <div class="code-line code-line-1">const developer = new SoftwareEngineer();</div>
+                <div class="code-line code-line-2">if (passion && dedication) { buildAmazing(); }</div>
+                <div class="code-line code-line-3">function solve() { return innovative_solution; }</div>
+                <div class="code-line code-line-4">while (learning) { skills++; }</div>
+                <div class="code-line code-line-5">export default Excellence;</div>
+            </div>
+            
+            <!-- Hexagon Grid -->
+            <div class="hex-grid">
+                <div class="hexagon hex-1"></div>
+                <div class="hexagon hex-3"></div>
+                <div class="hexagon hex-5"></div>
+            </div>
+            
+            <!-- Binary Rain -->
+            <div class="binary-rain">
+                <div class="binary-column binary-1">10110100101110100101</div>
+                <div class="binary-column binary-3">11010010110100101011</div>
+                <div class="binary-column binary-5">10101110100101101011</div>
+            </div>
+            
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hi, I'm</span>
+                        <span class="title-name glitch" data-text="Trupti Reddy">Trupti Reddy</span>
+                        <span class="title-role">
+                            <span class="typewriter" id="typewriter"></span>
+                            <span class="cursor" id="cursor">|</span>
+                        </span>
+                    </h1>
+                    <p class="hero-description">
+                        Building, debugging, analyzing and hiking the extra mile.
+                        A coding enthusiast and data analytics explorer who crafts digital solutions with curiosity and precision.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="mailto:truptireddy2017@gmail.com?subject=Hiring%20Inquiry%20-%20Let's%20Work%20Together&body=Hi%20Trupti,%0D%0A%0D%0AI'm%20interested%20in%20discussing%20a%20potential%20opportunity%20with%20you.%0D%0A%0D%0ABest%20regards," class="btn btn-secondary">
+                            <span>Hire Me</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="profile-photo.jpeg" alt="Trupti Reddy - SAP ABAP Consultant" class="profile-photo">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-contact">
+                <div class="social-links-minimal">
+                    <a href="https://github.com/truptireddy23" target="_blank" class="social-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/truptireddy/" target="_blank" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:truptireddy2017@gmail.com" class="social-icon" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span class="scroll-text-vertical">SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me beyond the code</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Experience</h3>
+                         <div class="experience-item">
+                            <h4>Data Analyst Intern</h4>
+                            <span class="company-name">Chicago Transit Authority(CTA), UIUC</span>
+                            <span class="experience-year">June 2026 – July 2026</span>
+                            <p>Managed and validated structured datasets using SQL and Python to support operational and stakeholder reporting, improving reporting efficiency by 30%.Translate stakeholder requirements into KPI-driven dashboards and analytical models, reducing manual reporting by 25%. Developed Power BI dashboards analyzing 10,000+ records to identify performance gaps and present structured insights </p>
+                        </div>
+                        <div class="experience-item">
+                            <h4>Technology Consultant</h4>
+                            <span class="company-name">Business Intelligence Group(BIG), UIUC</span>
+                            <span class="experience-year">January 2026 – Present</span>
+                            <p>Managed and validated structured datasets using SQL and Python to support operational and stakeholder reporting, improving reporting efficiency by 30%.Translate stakeholder requirements into KPI-driven dashboards and analytical models, reducing manual reporting by 25%. Developed Power BI dashboards analyzing 10,000+ records to identify performance gaps and present structured insights </p>
+                        </div>
+                        <div class="experience-item">
+                            <h4>SAP ABAP Consultant</h4>
+                            <span class="company-name">Volkswagen Group Technology Solutions, Pune, India</span>
+                            <span class="experience-year">August 2023 – August 2025</span>
+                            <p>Developed 30+ custom SAP ABAP solutions, improving business reporting and system performance. Resolved 1,000+ code issues via ATC scans to cut system errors by 85% for S/4HANA migration. Supported data migration of 5M+ records and enabled real-time SAP Fiori integrations using OData, BAPIs, and RFCs.</p>
+                        </div>
+                        <div class="experience-item">
+                            <h4>Data Analyst Intern</h4>
+                            <span class="company-name">LTIMindtree</span>
+                            <span class="experience-year">September 2022 - March 2023</span>
+                            <p>Developed and deployed a React–Node.js framework with ANTLR–MongoDB APIs, cutting quantum task execution/user failures by 50%+ and boosting adoption by 30%. Automated CI/CD workflows and built an LLM–GNN–NLP quantum syntax dictionary, reducing QA and tagging effort by 150+ hours.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-card">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Master of Information Management</h4>
+                            <span class="university-name">University of Illinois Urbana-Champaign</span>
+                            <span class="education-year">August 2025 – May 2027</span>
+                            <p>Pursuing interests in data analytics, business consulting, and information management through specialized coursework and projects.</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Bachelor of Computer Engineering</h4>
+                            <span class="university-name">Savitribai Phule Pune University</span>
+                            <span class="education-year">August 2019 – May 2023</span>
+                            <p>Graduated with a CGPA of 9.72, demonstrating strong academic performance and a consistent focus on technical excellence.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-card">
+                        <h3>Interests & Hobbies</h3>
+                        <p>
+                            Away from the screen, I enjoy exploring new destinations, immersing myself in different cultures, trekking through nature, playing badminton, and capturing moments along the way. I'm constantly seeking to learn and grow, approaching every challenge with the same curiosity and determination I bring to solving complex problems.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="about-gallery">
+                    <div class="gallery-grid">
+                        <div class="gallery-item animate-on-scroll" data-delay="0" data-image="gallery-1.jpeg">
+                            <div class="image-placeholder loading">
+                                <div class="placeholder-content">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                            </div>
+                            <p class="image-caption">Chasing Sunsets</p>
+                        </div>
+                        <div class="gallery-item animate-on-scroll" data-delay="100" data-image="gallery-2.jpeg">
+                            <div class="image-placeholder loading">
+                                <div class="placeholder-content">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                            </div>
+                            <p class="image-caption">Throwball Champions '23</p>
+                        </div>
+                        <div class="gallery-item animate-on-scroll" data-delay="200" data-image="gallery-3.jpeg">
+                            <div class="image-placeholder loading">
+                                <div class="placeholder-content">
+                                    <i class="fas fa-mountain"></i>
+                                </div>
+                            </div>
+                            <p class="image-caption">Addicted to Travelling?</p>
+                        </div>
+                        <div class="gallery-item animate-on-scroll" data-delay="300" data-image="gallery-4.jpeg">
+                            <div class="image-placeholder loading">
+                                <div class="placeholder-content">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                            </div>
+                            <p class="image-caption">Mentoring HackSprint '24</p>
+                        </div>
+                        <div class="gallery-item animate-on-scroll" data-delay="400" data-image="gallery-5.jpeg">
+                            <div class="image-placeholder loading">
+                                <div class="placeholder-content">
+                                    <i class="fas fa-coffee"></i>
+                                </div>
+                            </div>
+                            <p class="image-caption">Deep Cultural Roots</p>
+                        </div>
+                        <div class="gallery-item animate-on-scroll" data-delay="500" data-image="gallery-6.jpeg">
+                            <div class="image-placeholder loading">
+                                <div class="placeholder-content">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                            </div>
+                            <p class="image-caption">Dessert Connoisseur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my technical journey</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="rainfall-analyzer.jpg" alt="Rainfall Analyzer Dashboard" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Rainfall Analyzer Dashboard & Prediction System</h3>
+                        <p class="project-description">
+                            Developed predictive models on 50+ years of rainfall data using time-series analysis and ML with Power BI and Python Dash.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="atm-management-final.jpg" alt="ATM Database Management System" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ATM Database Management System</h3>
+                        <p class="project-description">
+                            Designed a 3NF relational database in MySQL handling 10,000+ customers and 50,000+ transactions, integrated backend using JDBC for real-time banking operations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JDBC</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="funnel-analysis.jpg" alt="Funnel Cohort Analysis SaaS dataset" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Funnel Cohort Analysis SaaS dataset</h3>
+                        <p class="project-description">
+                            Conducted funnel, cohort, and statistical analysis for digital subscription product using SQL/Python, drove 22% sign-up growth through data-driven insights and visualization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="more-projects">
+                <a href="https://github.com/truptireddy23" target="_blank" class="btn btn-outline">
+                    <span>More Projects</span>
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://drive.google.com/file/d/1NYsA1CxHAuEiZB-39Kf5N2_iLA3NDPnt/view?usp=sharing" target="_blank" class="btn btn-outline">
+                    <span>View Resume</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Trupti Reddy. Crafted with passion and code.</p>
+                </div>
+                <div class="footer-socials-sleek">
+                    <a href="https://github.com/truptireddy23" target="_blank" class="footer-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/truptireddy/" target="_blank" class="footer-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:truptireddy2017@gmail.com" class="footer-icon" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
