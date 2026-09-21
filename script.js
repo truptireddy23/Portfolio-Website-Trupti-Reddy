@@ -844,7 +844,7 @@ class PortfolioWebsite {
       'Data Analyst', 
       'Data Scientist',
       'Business Analyst',
-      'AI Explorer'
+      'AI Explorer',
       'Data Enthusiast'
     ];
     
